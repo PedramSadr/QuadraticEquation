@@ -15,9 +15,7 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.TestPropertySource;
 
 @SpringBootTest
-//@TestPropertySource(properties = {"discriminant.greater.than.zero = The roots are real and distinct.",
-//		"discriminant.equal.to.zero = The roots are real and equal.",
-//		"discriminant.less.than.zero = The roots do not exist or the roots are imaginary."})
+
 @TestPropertySource(locations = {"classpath:application.properties"})
 class QuadraticEquationApplicationTests implements EnvironmentAware {
 
